@@ -1,4 +1,4 @@
-# Documentació tècnica AS
+# Documentació tècnica
 
 Web de documentació tècnica de Linux, xarxes i serveis, feta per Aaron Sánchez i Sergi Sunyol.
 
