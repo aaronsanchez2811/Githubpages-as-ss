@@ -4,7 +4,7 @@ Aquesta web recull documentació tècnica bàsica per al departament d'informàt
 
 L'objectiu és que un administrador de sistemes pugui trobar ràpidament com fer les tasques més habituals, amb explicacions curtes i exemples de comandes que es poden copiar.
 
-(https://definicion.de/wp-content/uploads/2008/04/sistema-binario.jpg)
+![ImatgePortada](https://definicion.de/wp-content/uploads/2008/04/sistema-binario.jpg)
 
 ## Seccions
 | Secció | Què hi trobaràs |
