@@ -1,4 +1,4 @@
-## Readme
+# Documentació tècnica AS
 
 Web de documentació tècnica de Linux, xarxes i serveis, feta per Aaron Sánchez i Sergi Sunyol.
 
@@ -18,6 +18,7 @@ L'hem triat perquè està pensat per a documentació tècnica, que és el que de
 
 ## Instal·lació i ús en local
 
+bash
 py -m pip install mkdocs
 git clone https://github.com/aaronsanchez2811/Githubpages-as-ss.git
 cd Githubpages-as-ss
@@ -27,22 +28,26 @@ La web es veu a http://127.0.0.1:8000.
 
 ## Generar i publicar
 
-build crea la carpeta site/ amb l'HTML final, i gh-deploy la puja a la branca gh-pages, que és la que publica GitHub Pages.
+bash
+py -m mkdocs build
+
+
+build crea la carpeta site/ amb l'HTML, el CSS i el JavaScript finals. Per publicar-la només cal fer git push, i el workflow de GitHub Actions s'encarrega de la resta.
 
 ## Desplegament automàtic
 
-El fitxer .github/workflows/deploy.yml és un workflow de GitHub Actions. Cada vegada que fem git push a main, instal·la MkDocs, genera la web i la publica sola.
+El fitxer .github/workflows/deploy.yml és un workflow de GitHub Actions. Cada vegada que fem git push a main, instal·la MkDocs, genera la web amb mkdocs build i puja la carpeta site a GitHub Pages.
 
 ## Estructura
 
-.github/workflows/deploy.yml
-docs
+github/workflows/deploy.yml
+docs/
  index.md
- blog
- linux
- xarxes
- serveis
- css
- img
+ blog/
+ linux/
+ xarxes/
+ serveis/
+ css/
+ img/
 mkdocs.yml
 README.md
