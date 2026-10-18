@@ -19,3 +19,7 @@ Cal anar amb compte amb els correus que demanen dades personals o porten enllaç
 ## Còpies de seguretat
 
 Guardar una còpia dels fitxers importants en un disc extern o al núvol evita perdre-ho tot si l'ordinador s'espatlla o pateix un atac.
+
+## Antivirus
+
+És molt recomanat tenir un antivirus en qualsevol sistema informàtic, ja que pot evitar molts problemes relacionats amb descàrregues malicioses o arxius infectats.
