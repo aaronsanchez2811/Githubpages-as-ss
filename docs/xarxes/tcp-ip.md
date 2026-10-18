@@ -17,7 +17,8 @@
 | Exemple | Webs | Videotrucades |
 
 ## Comandes
+```bash
 ip a
 ping 8.8.8.8
-
+```
 La primera mostra la teva IP i la segona comprova si hi ha connexió.
