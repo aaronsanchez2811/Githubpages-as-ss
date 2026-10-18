@@ -3,6 +3,8 @@
 ## ¿Qué es SSH?
 SSH (**Secure Shell** o Intérprete de Comandos Seguro) es un protocolo de red criptográfico que permite a los usuarios acceder, controlar y modificar servidores remotos de forma **segura** a través de una red no segura (como Internet). Proporciona un canal seguro sobre una red insegura mediante cifrado fuerte.
 
+![imatgessh](https://i0.wp.com/lab.wallarm.com/wp-content/uploads/2024/05/160-Preview.jpg?w=800&ssl=1)
+
 ---
 
 ## Características Principales
