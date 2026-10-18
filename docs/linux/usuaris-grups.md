@@ -1,4 +1,4 @@
-Els usuaris i grups a Linux
+## Els usuaris i grups a Linux
 
 A Linux, cada persona que fa servir l’ordinador té el seu propi usuari, amb una contrasenya i una carpeta personal dins de /home. A més, hi ha l’usuari root, que és l’administrador i pot fer qualsevol canvi al sistema.
 
