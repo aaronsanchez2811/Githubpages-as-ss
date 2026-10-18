@@ -1,9 +1,16 @@
-## Els permisos a Linux
+## Permisos Linux
+Cada fitxer té tres permisos que es donen per separat al propietari, al grup i a la resta:
 
-A Linux, cada fitxer té un propietari. Els permisos serveixen per decidir qui pot obrir, canviar o fer servir aquell fitxer.
+- r (lectura) per veure'l.
+- w (escriptura) per modificar-lo.
+- x (execució) per executar-lo.
 
-Hi ha tres permisos: llegir (r), escriure (w) i executar (x). Es donen a tres tipus d’usuaris diferents: el propietari, el seu grup i la resta.
+![imatgepermisos](https://www.comunicare.es/wp-content/uploads/2022/05/linux.jpg)
+## Veure'ls i canviar-los
 
-Per veure els permisos d’un fitxer s’utilitza l’ordre ls -l. Per exemple, -rw-r--r-- vol dir que el propietari el pot llegir i modificar, i que els altres només el poden llegir.
+## Comandes
+ls -l  mostra la informació del fitxer   
+chmod 755  Canviar els permisos del fitxer
+-rwxr-xr-- L’usuari propietari pot llegir, escriure i executar. El grup pot llegir i executar. La resta només pot llegir
 
-Per canviar els permisos s’utilitza l’ordre chmod. Per exemple, chmod u+x script.sh dona permís d’execució al propietari, i així pot executar l’script.
+En números, r val 4, w val 2 i x val 1. Per això 755 vol dir que el propietari ho té tot i la resta només pot llegir i executar.
