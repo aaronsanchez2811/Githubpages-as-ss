@@ -35,14 +35,14 @@ El fitxer .github/workflows/deploy.yml és un workflow de GitHub Actions. Cada v
 
 ## Estructura
 
-├── .github/workflows/deploy.yml
-├── docs/
-│   ├── index.md
-│   ├── blog/
-│   ├── linux/
-│   ├── xarxes/
-│   ├── serveis/
-│   ├── css/
-│   └── img/
-├── mkdocs.yml
-└── README.md
+.github/workflows/deploy.yml
+docs
+ index.md
+ blog
+ linux
+ xarxes
+ serveis
+ css
+ img
+mkdocs.yml
+README.md
