@@ -10,6 +10,7 @@ HTTP (Hypertext Transfer Protocol) es el protocolo de comunicación usado para l
 * **Puerto predeterminado:** Utiliza el puerto **80** por defecto (mientras que su versión segura, **HTTPS**, utiliza el puerto **443** y añade cifrado SSL/TLS).
 
 ---
+![imatgehttp](https://prettylinks.com/wp-content/uploads/2019/01/HTTP-HTTPS@2x.png.webp)
 
 ## Estructura de una Transacción
 
