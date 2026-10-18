@@ -1,6 +1,6 @@
 ## Readme
 
-Web de documentació tècnica de Linux, xarxes i serveis, feta per Aaron Sánchez i Sergi Sunyol (2n ASIX).
+Web de documentació tècnica de Linux, xarxes i serveis, feta per Aaron Sánchez i Sergi Sunyol.
 
 Web publicada: https://aaronsanchez2811.github.io/Githubpages-as-ss/
 
