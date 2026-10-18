@@ -1,4 +1,4 @@
-Els permisos a Linux
+## Els permisos a Linux
 
 A Linux, cada fitxer té un propietari. Els permisos serveixen per decidir qui pot obrir, canviar o fer servir aquell fitxer.
 
