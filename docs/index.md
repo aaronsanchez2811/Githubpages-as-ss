@@ -9,10 +9,10 @@ L'objectiu és que un administrador de sistemes pugui trobar ràpidament com fer
 ## Seccions
 | Secció | Què hi trobaràs |
 |---|---|
-| [Linux](linux/permisos.md) | Permisos, usuaris i grups |
-| [Xarxes](xarxes/tcp-ip.md) | El model TCP/IP i el DNS |
-| [Serveis](serveis/ssh.md) | SSH i HTTP |
-| [Blog](blog/noticies.md) | Notícies, consells de seguretat i qui som
+| Linux | Permisos, usuaris i grups |
+| Xarxes | El model TCP/IP i el DNS |
+| Serveis | SSH i HTTP |
+| Blog | Notícies, consells de seguretat i qui som
 
 ## Com està feta
 
