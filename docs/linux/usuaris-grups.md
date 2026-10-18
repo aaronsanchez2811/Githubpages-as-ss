@@ -1,9 +1,28 @@
-## Els usuaris i grups a Linux
+Cada persona que fa servir l'ordinador té el seu usuari, amb una contrasenya i una carpeta pròpia a /home. L'usuari root és l'administrador i pot fer qualsevol canvi.
 
-A Linux, cada persona que fa servir l’ordinador té el seu propi usuari, amb una contrasenya i una carpeta personal dins de /home. A més, hi ha l’usuari root, que és l’administrador i pot fer qualsevol canvi al sistema.
+## Els grups
 
-Els grups ajunten diversos usuaris perquè tinguin els mateixos permisos. Si tots els alumnes d’una classe estan al mateix grup, es pot fer que tots puguin entrar a la mateixa carpeta sense haver de configurar-ho un per un.
+Un grup ajunta diversos usuaris perquè tinguin els mateixos permisos. Per exemple, si la *maria*, el *joan* i l'*anna* són al grup alumnes, tots tres poden entrar a la mateixa carpeta.
 
-Un usuari nou es crea amb l’ordre useradd, i la contrasenya se li posa amb passwd. Els grups es creen amb groupadd, i amb usermod -aG s’hi afegeixen usuaris: usermod -aG alumnes maria posa la maria dins del grup alumnes.
+![imatgepermisos](https://linuxhandbook.com/content/images/2020/06/Group-Management-Linux.jpg)
+## Comandes
 
-Si vols saber a quins grups pertany un usuari, pots fer servir l’ordre groups. L’ordre id també ho mostra, juntament amb el número que identifica l’usuari.
+| Comanda | Per a què serveix |
+|---|---|
+| useradd | Crear un usuari |
+| passwd | Posar la contrasenya |
+| groupadd | Crear un grup |
+| usermod -aG | Afegir un usuari a un grup |
+
+bash
+sudo useradd -m sergi
+sudo passwd sergi
+sudo groupadd alumnes
+sudo usermod -aG alumnes sergi
+
+
+## On es guarda
+
+- Els usuaris, a /etc/passwd.
+- Les contrasenyes xifrades, a /etc/shadow.
+- Els grups, a /etc/group.
