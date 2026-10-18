@@ -2,6 +2,8 @@
 
 El DNS (Domain Name System) és el sistema que tradueix els noms de les webs a adreces IP. Els ordinadors es comuniquen amb números, com 142.250.184.4, però a les persones ens és més fàcil recordar un nom com google.com.
 
+![imatgedns](https://ayudaleyprotecciondatos.es/wp-content/uploads/2020/10/dns-domain-name-system-server.jpg)
+
 ## Com funciona
 
 Quan escrius una adreça al navegador, l'ordinador pregunta a un servidor DNS quina IP té aquell nom. El servidor li retorna la IP i, a partir d'aquí, el navegador ja es pot connectar a la web.
