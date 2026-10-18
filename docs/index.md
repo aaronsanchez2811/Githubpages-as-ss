@@ -1,8 +1,17 @@
-# Página web de Aaron Sánchez y Sergi Sunyol
+Aquesta web recull documentació tècnica bàsica per al departament d'informàtica: Linux, xarxes i serveis, a més d'un petit blog amb notícies i consells.
 
-En esta página web puedes acceder a una documentación basica sobre temas generales sobre la informática, como son:
+## Objectiu de la web
 
-* **Blog:** Noticias interesantes sobre la informática.
-* **Linux:** Configuración de permisos, usuarios y grupos.
-* **Servicios:** SSH, HTTP.
-* **Redes:** DNS, TCP-IP.
+L'objectiu és que un administrador de sistemes pugui trobar ràpidament com fer les tasques més habituals, amb explicacions curtes i exemples de comandes que es poden copiar.
+
+[logo principal](https://definicion.de/informatica/)
+
+## Seccions
+Secció	Què hi trobaràs
+Linux	Permisos, usuaris i grups
+Xarxes	El model TCP/IP i el DNS
+Serveis	SSH i HTTP
+Blog	Notícies, consells de seguretat i qui som
+Com està feta
+
+La web està escrita en Markdown i generada amb MkDocs. El codi és en un repositori de GitHub i es publica automàticament a GitHub Pages cada vegada que fem un canvi.
